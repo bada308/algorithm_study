@@ -1,7 +1,6 @@
 # 스트림(Stream)
 
 ### 스트림이란?
-
 ---
 
 스트림은 데이터의 이동 흐름이다.
@@ -12,7 +11,8 @@
 
 - HTTP 응답 데이터(브라우저가 요청하고 서버가 응답하는 HTTP 응답 데이터)
 
-![스크린샷 2023-01-07 오전 2.34.06.png](%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3%E1%84%85%E1%85%B5%E1%86%B7(Stream)%2078d7bcee8f3243c2ac4368a2e167cabf/%25E1%2584%2589%25E1%2585%25B3%25E1%2584%258F%25E1%2585%25B3%25E1%2584%2585%25E1%2585%25B5%25E1%2586%25AB%25E1%2584%2589%25E1%2585%25A3%25E1%2586%25BA_2023-01-07_%25E1%2584%258B%25E1%2585%25A9%25E1%2584%258C%25E1%2585%25A5%25E1%2586%25AB_2.34.06.png)
+<img width="675" alt="스크린샷 2023-01-07 오후 12 39 02" src="https://user-images.githubusercontent.com/88534959/211129615-8e934752-3f4b-4ce9-aa68-e91fb3f5aef0.png">
+
 
 용도에 따라 입력 스트림(InputStream), 출력 스트림(OutputStream)으로 나뉜다.
 
@@ -21,6 +21,7 @@ BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 ```
 
 ### InpuStream
+---
 
 바이트 단위로 데이터를 처리한다.
 
@@ -51,10 +52,12 @@ read()메서드는 1Byte의 int 자료형으로 값을 받는다.
 ```
 
 또한, System.in의 타입도 InputStream이다.
+<img width="592" alt="스크린샷 2023-01-07 오후 12 12 47" src="https://user-images.githubusercontent.com/88534959/211129556-ae1140a7-d33e-46f9-9b41-e2c954342cab.png">
 
 이 방법만으로는 문자를 받기 힘드니 InputStreamReader를 사용해서 바이트 단위 데이터를 문자 단위로 처리할 수 있게하였다.
 
 ### InputStreamReader
+---
 
 문자(Character) 단위로 데이터를 처리한다.
 
@@ -65,9 +68,10 @@ InputStreamReader reader = new InputStreamReader(new InputStream);
 ```
 
 InputStreamReader은 InputStream 객체를 입력으로 가지고 있어야 한다.
+<img width="515" alt="스크린샷 2023-01-07 오후 12 17 28" src="https://user-images.githubusercontent.com/88534959/211129568-27195f96-1456-4922-a4f2-87cea652e819.png">
 
 ### BufferedReader
-
+---
 버퍼를 두어 문자를 버퍼에 일정 정도 저장해둔 뒤 한 번에 보낸다.
 
 ```java
