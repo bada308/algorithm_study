@@ -1,4 +1,4 @@
-package stack;
+package week2.sumin
 
 import java.io.*;
 import java.util.Stack;
