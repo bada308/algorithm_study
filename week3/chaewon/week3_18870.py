@@ -1,1 +1,0 @@
-# BJ 18870 / SILVER III /
