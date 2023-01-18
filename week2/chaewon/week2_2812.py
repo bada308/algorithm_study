@@ -1,6 +1,5 @@
 import sys
 
-
 # 아이디어 : numbers에 있는 숫자를 하나씩 stack에 넣고 다음 숫자와 비교
 
 
