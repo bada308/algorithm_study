@@ -29,7 +29,7 @@ a = 3
 for i in range(count):
     sqr.append(a)
     a *= 3
-# print('a: ', sqr)
+# print('sqr: ', sqr)
 
 
 for i in range(n):
@@ -52,6 +52,7 @@ arr_print()
 '''
 NOTE:
 2차원 배열로 접근한거 나름 괜춘한 방법이라고 생각했는데,,, 왜 시간초과가 나는걸까
-
+여러분 저는 이 소중한 제 코드를 버릴 수 없어요
+죄송한데 이 문제는 이걸로 제출하고 구글링해서 다른 방법도 알아볼게욤 ㅎㅣ히
 
 '''
