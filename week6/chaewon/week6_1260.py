@@ -1,4 +1,4 @@
-# BJ 1260 / SILVER II /
+# BJ 1260 / SILVER II / 164ms
 
 import sys
 from collections import deque
@@ -43,3 +43,23 @@ def bfs(v):
 dfs(v)
 print()
 bfs(v)
+
+
+'''
+NOTE:
+DFS, BFS의 가장 기본 문제인 것 같다
+기본 개념과 예제 코드까지 다 익히고 나서 문제를 푼건데도 어려웠다
+예제에서는 graph를 처음부터 인접 리스트로 저장해뒀었는데
+여기서는 입력 받고 인접 행렬 또는 인접 리스트로 직접 바꿔 저장하는 부분을 구현하는 게 어려웠다 ㅠ
+
+인접 리스트를 구현하는 코드는 아래와 같다
+
+graph = [[] for _ in range(N + 1)]
+
+for _ in range(M):
+    a, b = map(int, input().split())
+    graph[a].append(b)
+    graph[b].append(a)
+
+파이팅...
+'''
