@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-//k==M일 때를 기점으로 BT함수가 종료되면서 백트래킹 하는 흐름을 생각해보기
+//k==M일 때를 기점으로 BT함수가 계속 리턴되면서 백트래킹 하는 흐름을 생각해보기
 int N,M;
 
 void BT(int k,int arr[M],int visited[N+1]){
